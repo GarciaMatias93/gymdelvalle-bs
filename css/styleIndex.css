@@ -1,0 +1,24 @@
+.form {
+  background-image: linear-gradient(to bottom, #878b8c, #3a3c3d);
+  width: 350px;
+  height: 600px;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 1rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  margin: 0.2rem;
+}
+.card:focus {
+  outline-style: solid;
+}
